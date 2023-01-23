@@ -64,10 +64,10 @@ while (user_choice.lower() == "yes"):
   else:
      print("invalid option")
 
-  if (correct >= 10)
+  if (correct >= 10):
     print("Brilliant!! You passed")
   else:
-    print("I guess you should take the test again. and this time try harder")
+    print("\nI guess you should take the test more seriously next time\n")
   print ("the total correct is: ", correct)
   print ("the total incorrect is: ", incorrect)   
   random_arr_selection.clear()
